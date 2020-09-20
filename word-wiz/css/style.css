@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Lobster&display=swap');
+.logo {
+    width: 30%;
+}
+
+
+/* .jumbotron {
+    height: 100vh;
+} */
+
+
+/* jumbotron start */
+
+.bg-img {
+    background-image: url("./hero2.webp");
+    /* filter: brightness(1.2); */
+    background-size: cover;
+    /* background-position-x: center;
+    background-position-y: bottom; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    z-index: 1;
+    /* necessary? is this positioned relative or absolute elsewhere? */
+    position: relative;
+}
+
+.tag-line {
+    color: whitesmoke;
+    font-weight: lighter;
+    font-size: small;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+.bg-img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.3;
+    z-index: 1/*Moved one position above the -10 */
+}
+
+.hero-intro {
+    z-index: 99;
+}
+
+.hero-intro h1 {
+    font-weight: 500;
+    font-size: 4.5rem;
+    color: white;
+    color: white;
+    font-family: 'Kufam', cursive;
+    /* font-family: 'Lobster', cursive; */
+}
+
+.lead {
+    font-family: 'Lobster', cursive;
+    letter-spacing: normal;
+    font-size: larger;
+}
+
+.get-qoute,
+.send-form,
+.text-muted,
+.mission {
+    font-family: 'Kufam', cursive;
+}
+
+
+/* jumbotron end */
+
+.what-we-do {
+    font-family: 'Kufam', cursive;
+}
+
+.work-card {
+    height: 15vh;
+    /* width: 20vw; */
+    border-radius: 3px;
+}
+
+.work-card p {
+    font-family: 'Kufam', cursive;
+}
+
+.mission-div {
+    height: 25vh;
+    /* background-image: url("./hero3.jpeg"); */
+}
+
+.mission {
+    /* font-family: 'Lobster', cursive;
+    letter-spacing: normal;
+    font-weight: lighter; */
+    /* font-size: larger; */
+}
+
+.sign-form {
+    background-image: url(./hero3.jpeg);
+    background-size: cover;
+    /* background-position-x: center;
+    background-position-y: bottom; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.bg-img1 {
+    background-image: url("./hero3.jpeg");
+    /* filter: brightness(1.2); */
+    background-size: cover;
+    /* background-position-x: center;
+    background-position-y: bottom; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    z-index: 1;
+    /* necessary? is this positioned relative or absolute elsewhere? */
+    position: relative;
+}
+
+.tag-line {
+    color: whitesmoke;
+    font-weight: lighter;
+    font-size: small;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+.bg-img1::after {
+    min-height: 50vh;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #6bca90;
+    opacity: 0.96;
+    z-index: 1/*Moved one position above the -10 */
+}
+
+.footer {
+    height: 5vh;
+}
+
+
+/* .form-intro-lead {
+    color: red;
+} */
+
+
+/* mission typewriter effect start  */
+
+
+/* GLOBAL STYLES */
+
+
+/* DEMO-SPECIFIC STYLES */
+
+
+/* end */
